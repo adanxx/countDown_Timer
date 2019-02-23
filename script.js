@@ -18,7 +18,7 @@ function countDown(min, seconds, element){
    }
 
    if(seconds == 0){
-      seconds = 10;
+      seconds = 60;
       min--; 
    }
    
