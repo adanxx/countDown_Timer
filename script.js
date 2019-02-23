@@ -7,7 +7,7 @@ function countDown(min, seconds, element){
    var min = min;
    var element = document.getElementById(element);
 
-   element.innerHTML =" Please wait for "+min+":"+seconds+" seconds";
+   element.innerHTML =" Please wait for "+min+" min : "+ seconds+" seconds";
    seconds--;
    
    if(min == 0 && seconds == 0){
