@@ -22,9 +22,7 @@ function countDown(min, seconds, element){
       min--; 
    }
    
-
    var timer = setTimeout(() => {
       countDown(min ,seconds, "status");
-   }, 1000);
-     
+   }, 1000);   
 }
